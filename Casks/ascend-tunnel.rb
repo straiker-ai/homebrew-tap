@@ -1,13 +1,13 @@
 cask "ascend-tunnel" do
-  version "0.1.2"
+  version "0.1.4"
 
   on_arm do
-    sha256 "0a8cab2a230620b9c74156ff769656f3f9305cf1aa4a91ddae0c3df113fffff8"
+    sha256 "9c59b61e8aa699997c84f870a54bc03d6cef45e0b9c947258d940405f3b21167"
 
     url "https://github.com/straiker-ai/ascend-tunnel/releases/download/v#{version}/ascend-tunnel_#{version}_darwin_arm64.tar.gz"
   end
   on_intel do
-    sha256 "1d627a7885a6a922e5d48883f85f43e6f5215cee3dd128b955e228c646ce1b76"
+    sha256 "f8a9cb17d873730419db7d0fbc13cb74d42063082c318d52a3093d4ae7c01b00"
 
     url "https://github.com/straiker-ai/ascend-tunnel/releases/download/v#{version}/ascend-tunnel_#{version}_darwin_amd64.tar.gz"
   end
